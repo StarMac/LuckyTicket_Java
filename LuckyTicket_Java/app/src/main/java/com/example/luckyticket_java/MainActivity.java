@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         EditText editText = findViewById(R.id.etTicketNumber);
-        ImageView bulb = findViewById(R.id.lightbulbImage);
+        ImageView bulb = findViewById(R.id.imgLightBulb);
         Drawable green_bulb = getDrawable(getResources().getIdentifier("@drawable/ic_green_bulb",null,getPackageName()));
         Drawable red_bulb = getDrawable(getResources().getIdentifier("@drawable/ic_red_bulb",null,getPackageName()));
         String number = editText.getText().toString();
